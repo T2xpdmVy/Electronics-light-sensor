@@ -11,6 +11,7 @@ void move_to(int degree, int wait = 15) { // new function to add delay and move 
     delay(wait);
   }
 }
+// holy chatgpt
 void setup() {
   myservo.attach(9);  // attaches the servo on pin 9 to the Servo object
 }
